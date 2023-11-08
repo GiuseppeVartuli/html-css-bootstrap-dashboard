@@ -1,0 +1,23 @@
+header {
+  height: 86px;
+}
+/* DEBUG */
+.debug .logo {
+  width: 60px;
+  height: 60px;
+  background: red;
+}
+.debug .menu {
+  background: yellow;
+  width: 400px;
+  height: 60px;
+}
+.debug .catalogue {
+  background: violet;
+  width: 100px;
+}
+.debug .button {
+  width: 100px;
+  background: brown;
+}
+/* css */
