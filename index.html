@@ -22,16 +22,20 @@
   <body class="">
     <header class="bg-dark">
       <nav>
-        <div class="col-5 d-flex gap-4 pt-3">
-          <div>
-            <img src="./img/duck.png" alt="" />
-          </div>
-          <ul class="menu list-unstyled d-flex gap-3 align-items-center ">
+        <div class="col-12 d-flex gap-4 pt-3 justify-content-between ">
+          <div class="d-flex gap-3">
+            <img class="ms-3" src="./img/duck.png" alt="" />
+            <ul class="menu list-unstyled d-flex gap-3 align-items-center ">
             <li><a class="text-white text-decoration-none" href="#">Cataloghi Libri</a></li>
             <li><a class="text-secondary text-decoration-none" href="#">Anagrafica Utenti</a></li>
             <li><a class="text-secondary text-decoration-none" href="#">Storico Prestiti</a></li>
             <li><a class="text-secondary text-decoration-none" href="#">Help</a></li>
-          </ul>
+            </ul>
+          </div>
+          <form class="d-flex my-2 gap-2">
+            <input class="form-control" type="text" placeholder="cerca...">
+            <button class="btn btn-outline-light my-2 me-2 " type="submit" >Cerca</button>
+          </form>
         </div>
       </nav>
     </header>
